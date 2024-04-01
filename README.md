@@ -76,7 +76,7 @@ Select customer_id,route_id from passengers_on_flights where route_id=4;
 
 -- 13.For the route ID 4, write a query to view the execution plan of the passengers_on_flights table
 
-explain select * from pof where route_id =4;
+explain select * from passengers_on_flights where route_id =4;
 
 -- 14.query to calculate the total price of all tickets booked by a customer across different aircraft IDs using rollup function
 
