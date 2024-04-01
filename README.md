@@ -58,8 +58,8 @@ from ticket_details;
 
 -- 10. Query to create and grant access to a new user to perform operations on a database
 
-create user 'Ad'@'localhost' identified by 'password';
-grant all on *.* to 'Ad'@'localhost' with grant option;
+create user 'Ab'@'localhost' identified by 'password';
+grant all on *.* to 'Ab'@'localhost' with grant option;
 
 -- 11.Fetching max ticket price for each class
 
